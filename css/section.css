@@ -19,6 +19,7 @@
 .section__image {
     max-width: 80%;
     height: auto;
+    max-height: 300px;
     border-radius: 25px;
     padding: 10px;
 }
