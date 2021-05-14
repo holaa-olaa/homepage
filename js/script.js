@@ -1,9 +1,25 @@
-console.log("Let's go travel!");
+{
+    const welcome = () => {
+        console.log("Let's go travel!");
+    };
 
-let buttonDisappearingPhotos = document.querySelector(".jsButtonDisappearingPhotos");
-let photosContainer = document.querySelector(".jsImagesCointainer");
-let buttonLabel = document.querySelector(".jsButtonLabel");
+    const togglePhotos = () => {
 
-buttonDisappearingPhotos.addEventListener("click", () => {
-    buttonLabel.innerText = photosContainer.classList.toggle('invisible') ? "Pokaż" : "Ukryj";
-});
+        const photosContainer = document.querySelector(".jsImagesCointainer");
+        const buttonLabel = document.querySelector(".jsButtonLabel");
+
+        buttonLabel.innerText = photosContainer.classList.toggle('invisible') ? "Pokaż" : "Ukryj";
+
+    };
+
+    const init = () => {
+
+        const buttonDisappearingPhotos = document.querySelector(".jsButtonDisappearingPhotos");
+
+        buttonDisappearingPhotos.addEventListener("click", togglePhotos);
+
+        welcome();
+    }
+
+    init();
+}
