@@ -4,6 +4,7 @@
 }
 
 .section__heading--specified{
+    text-transform: uppercase;
     color: rgb(18, 87, 143);
     background-color: #abc6d4;
 }
@@ -24,7 +25,7 @@
     padding: 10px;
 }
 
-.section__image-main {
+.section__image--main {
     margin: 0 auto;
     padding-top: 10px;
     display: block;
