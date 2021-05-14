@@ -18,6 +18,7 @@
 
 .table__cell--header {
     background-color: rgb(115, 163, 175);
+    text-transform: uppercase;
 }
 
 .table__row:hover {
