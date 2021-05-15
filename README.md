@@ -21,6 +21,7 @@ Project is created with:
 * HTML
 * CSS (BEM naming convetion)
 * ES6+
+* FlexBox
 	
 ## Setup
 It's easy! To run this project just open the link in your browser.
