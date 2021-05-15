@@ -1,6 +1,6 @@
 # Wszystko o mnie, czyli podróże małe i duże- homepage
 
-![Previous Side Trailer](https://i.postimg.cc/NFxZCbRY/readme-Gif.gif)
+![Previous Side Trailer](readmeGif.gif)
 
 ## Table of contents
 * [Demo](#demo)
