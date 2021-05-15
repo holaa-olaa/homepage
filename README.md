@@ -1,6 +1,6 @@
 # Wszystko o mnie, czyli podróże małe i duże- homepage
 
-![Previous Side Trailer](https://i.postimg.cc/NFxZCbRY/readme-Gif.gif)
+![Previous Side Trailer](readmeGif.gif)
 
 ## Table of contents
 * [Demo](#demo)
@@ -21,6 +21,7 @@ Project is created with:
 * HTML
 * CSS (BEM naming convetion)
 * ES6+
+* FlexBox
 	
 ## Setup
-It's easy! To run this project just open the link in your browsher.
+It's easy! To run this project just open the link in your browser.
