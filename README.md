@@ -23,4 +23,4 @@ Project is created with:
 * ES6+
 	
 ## Setup
-It's easy! To run this project just open the link in your browsher.
+It's easy! To run this project just open the link in your browser.
