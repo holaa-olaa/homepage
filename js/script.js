@@ -5,18 +5,18 @@
 
     const togglePhotos = () => {
 
-        const photosContainer = document.querySelector(".jsImagesCointainer");
-        const buttonLabel = document.querySelector(".jsButtonLabel");
+        const imagesCointainerElement = document.querySelector(".js-imagesCointainer");
+        const buttonLabelElement = document.querySelector(".js-buttonLabel");
 
-        buttonLabel.innerText = photosContainer.classList.toggle('invisible') ? "Pokaż" : "Ukryj";
+        buttonLabelElement.innerText = imagesCointainerElement.classList.toggle('invisible') ? "Pokaż" : "Ukryj";
 
     };
 
     const init = () => {
 
-        const buttonDisappearingPhotos = document.querySelector(".jsButtonDisappearingPhotos");
+        const buttonElement = document.querySelector(".js-button");
 
-        buttonDisappearingPhotos.addEventListener("click", togglePhotos);
+        buttonElement.addEventListener("click", togglePhotos);
 
         welcome();
     }
