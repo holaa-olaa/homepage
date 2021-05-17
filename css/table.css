@@ -11,16 +11,16 @@
 }
 
 .table__cell {
-    border: 1px solid black;
+    border: 1px solid hsl(0, 0%, 0%);
     padding: 15px;
     text-align: center;
 }
 
 .table__cell--header {
-    background-color: rgb(115, 163, 175);
+    background-color: hsl(192, 27%, 57%);
     text-transform: uppercase;
 }
 
 .table__row:hover {
-    background-color: rgb(173, 191, 194);
+    background-color: hsl(189, 15%, 72%);
 }

@@ -7,7 +7,7 @@ html {
 }
 
 .body {
-    background: #d5dce0;
+    background: hsl(202, 15%, 86%);
     max-width: 1000px;
     margin: 0 auto;
     padding: 25px;

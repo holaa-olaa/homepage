@@ -1,7 +1,7 @@
 .navigation__list {
     list-style: none;
-    border-bottom: 2px solid rgb(18, 87, 143);
-    border-top: 2px solid rgb(18, 87, 143);
+    border-bottom: 2px solid hsl(207, 78%, 32%);
+    border-top: 2px solid hsl(207, 78%, 32%);
     padding: 15px 0;
     text-align: right;
 }
@@ -12,14 +12,14 @@
 
 .navigation__link {
     text-decoration: none;
-    color: rgb(18, 87, 143);
+    color: hsl(207, 78%, 32%);
     font-weight: bold;
 }
 
 .navigation__link:hover {
-    color: rgb(6, 58, 100);
+    color: hsl(207, 89%, 21%);
 }
 
 .navigation__link:active {
-    color: rgb(1, 27, 48);
+    color: hsl(207, 96%, 10%);
 }

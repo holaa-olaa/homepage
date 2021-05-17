@@ -1,12 +1,12 @@
 .section__heading {
-    color: rgb(18, 87, 143);
+    color: hsl(207, 78%, 32%);
     text-align: center;
 }
 
 .section__heading--specified{
     text-transform: uppercase;
-    color: rgb(18, 87, 143);
-    background-color: #abc6d4;
+    color: hsl(207, 78%, 32%);
+    background-color: hsl(200, 32%, 75%);
 }
 
 .section__imagesContainer {
@@ -37,7 +37,7 @@
 
 .section__paragraph--important {
     letter-spacing: 0.04em;
-    text-shadow: 0 5px 5px rgb(132 174 208);
+    text-shadow: 0 5px 5px hsl(207, 45%, 67%);
 }
 
 .section__button {
@@ -45,14 +45,14 @@
     margin: 15px 5px;
     width: 30%;
     font-family: 'Nunito', sans-serif;
-    background-color: #abc6d4;
+    background-color: hsl(200, 32%, 75%);
     border: none;
     font-weight: bold;
     border-radius: 25px;
 }
 
 .section__button:hover {
-    background-color: crimson;
+    background-color: hsl(348, 83%, 47%);
 }
 
 .section--overflow {
