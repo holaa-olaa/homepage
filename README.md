@@ -1,4 +1,4 @@
-# Wszystko o mnie, czyli podróże małe i duże- homepage
+# Homepage
 
 ![Previous Side Trailer](readmeGif.gif)
 
